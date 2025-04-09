@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package memory;
+
+service MemoryManager {
+    rpc Create(CreateRequest) returns (CreateResponse);
+    rpc Set(SetRequest) returns (SetResponse);
+    rpc Get(GetRequest) returns (GetResponse);
+    rpc IncreaseRefCount(RefCountRequest) returns (RefCountResponse);
+    rpc DecreaseRefCount(RefCountRequest) returns (RefCountResponse);
+}
+
+message CreateRequest {
+    int32 size = 1;
+    string type = 2;
+}
+
+message CreateResponse {
+    int32 id = 1;
+    string mensaje = 2;
+}
+
+message SetRequest {
+    int32 id = 1;
+    string value = 2;
+}
+
+message SetResponse {
+    bool success = 1;
+    string mensaje = 2;
+}
+
+message GetRequest {
+    int32 id = 1;
+}
+
+message GetResponse {
+  string mensaje = 1;
+  string value = 2;
+  string type = 3; 
+}
+
+message RefCountRequest {
+    int32 id = 1;
+}
+
+message RefCountResponse {
+    int32 ref_count = 1;
+    bool success = 2;
+    string mensaje = 3;
+}

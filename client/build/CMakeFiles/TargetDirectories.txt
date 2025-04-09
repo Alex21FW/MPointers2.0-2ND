@@ -1,0 +1,5 @@
+/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/client/build/CMakeFiles/mpointer_client.dir
+/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/client/build/CMakeFiles/demo_client.dir
+/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/client/build/CMakeFiles/linkedlist_demo.dir
+/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/client/build/CMakeFiles/edit_cache.dir
+/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/client/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/build",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -I\"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/build\" -I\"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src\" -g -std=gnu++17 -o CMakeFiles/memory_manager.dir/src/main.cpp.o -c \"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src/main.cpp\"",
+  "file": "/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src/main.cpp",
+  "output": "CMakeFiles/memory_manager.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/build",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -I\"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/build\" -I\"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src\" -g -std=gnu++17 -o CMakeFiles/memory_manager.dir/src/memory_manager_service.cpp.o -c \"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src/memory_manager_service.cpp\"",
+  "file": "/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src/memory_manager_service.cpp",
+  "output": "CMakeFiles/memory_manager.dir/src/memory_manager_service.cpp.o"
+},
+{
+  "directory": "/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/build",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -I\"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/build\" -I\"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src\" -g -std=gnu++17 -o CMakeFiles/memory_manager.dir/src/memory_manager.pb.cc.o -c \"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src/memory_manager.pb.cc\"",
+  "file": "/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src/memory_manager.pb.cc",
+  "output": "CMakeFiles/memory_manager.dir/src/memory_manager.pb.cc.o"
+},
+{
+  "directory": "/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/build",
+  "command": "/usr/bin/g++ -DCARES_STATICLIB -I\"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/build\" -I\"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src\" -g -std=gnu++17 -o CMakeFiles/memory_manager.dir/src/memory_manager.grpc.pb.cc.o -c \"/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src/memory_manager.grpc.pb.cc\"",
+  "file": "/home/alexfeng/Escritorio/Datos II/mpointers_proyecto/memory_manager/src/memory_manager.grpc.pb.cc",
+  "output": "CMakeFiles/memory_manager.dir/src/memory_manager.grpc.pb.cc.o"
+}
+]

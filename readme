@@ -1,0 +1,33 @@
+Ejecutar el servidor
+
+cd memory_manager
+./build/memory_manager --port 50051 --memsize 10
+
+Ejecutar el cliente
+
+./client/build/mpointer_client
+
+Ejecuta Demo y Demo de LinkedList
+cd client
+./build/demo_client
+
+cd client
+./build/linkedlist_demo
+
+Para ejecutar la build del servidor usar el VS
+
+PAra ejecutar la build del cliente entrar en la carpeta del cliente con cd client ->
+rm -rf build
+cmake -S . -B build
+cmake --build build
+
+Para actualizar los archivos proto hay que meterse a la carpeta de memory_manager y generarlos ahi
+
+cd memory_manager
+protoc -I=proto --grpc_out=src --plugin=protoc-gen-grpc=`which grpc_cpp_plugin` proto/memory_manager.proto
+protoc -I=proto --cpp_out=src proto/memory_manager.proto
+
+
+
+VERSION DE PROTOC = 3.21.12
+VERSION DE gRPC = 1.53.0
