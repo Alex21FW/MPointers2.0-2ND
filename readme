@@ -27,7 +27,8 @@ cd memory_manager
 protoc -I=proto --grpc_out=src --plugin=protoc-gen-grpc=`which grpc_cpp_plugin` proto/memory_manager.proto
 protoc -I=proto --cpp_out=src proto/memory_manager.proto
 
-
+En caso de fallas de ruta 
+crear una carpeta llamada "mpointers_proyecto" y colocar los archivos dentro
 
 VERSION DE PROTOC = 3.21.12
 VERSION DE gRPC = 1.53.0
